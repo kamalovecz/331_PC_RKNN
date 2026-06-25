@@ -1,0 +1,110 @@
+{
+  "model": "PROCESSED_SADH_s42",
+  "model_path": "/home/orangepi/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/0422_RKNN_model/PROCESSED_SADH_s42_640_fp.rknn",
+  "image_count": 350,
+  "elapsed_s": 22.47461968599964,
+  "profile": {
+    "conf": 0.35,
+    "input_format": "rgb",
+    "input_layout": "nhwc",
+    "norm_mode": "div255",
+    "postprocess_variant": "legacy",
+    "apply_edge_filter": true,
+    "bbox_expand_scale": 1.0,
+    "bbox_expand_pad": 0.0,
+    "notes": [
+      "0422 fp export uses RGB + NHWC + div255 by default"
+    ]
+  },
+  "overall": {
+    "gt_total": 492,
+    "pred_total": 382,
+    "tp": 324,
+    "fp": 58,
+    "fn": 168,
+    "precision": 0.8481675392670157,
+    "recall": 0.6585365853658537,
+    "mean_inference_ms": 41.8778791771287,
+    "map50": 0.653889777587275,
+    "map75": 0.48561759314341846,
+    "map50_95": 0.44208618838196134
+  },
+  "per_class": [
+    {
+      "class_name": "Cracks",
+      "gt": 87,
+      "tp": 74,
+      "fp": 13,
+      "fn": 13,
+      "precision": 0.8505747126436781,
+      "recall": 0.8505747126436781,
+      "ap50": 0.7816741891604841,
+      "ap75": 0.4834804800429513,
+      "ap50_95": 0.46262666947423237
+    },
+    {
+      "class_name": "Pitting",
+      "gt": 153,
+      "tp": 95,
+      "fp": 8,
+      "fn": 58,
+      "precision": 0.9223300970873787,
+      "recall": 0.6209150326797386,
+      "ap50": 0.6124324169415445,
+      "ap75": 0.49177460826532915,
+      "ap50_95": 0.4421813857573317
+    },
+    {
+      "class_name": "Rust",
+      "gt": 123,
+      "tp": 68,
+      "fp": 22,
+      "fn": 55,
+      "precision": 0.7555555555555555,
+      "recall": 0.5528455284552846,
+      "ap50": 0.5129344248702701,
+      "ap75": 0.42967843248586446,
+      "ap50_95": 0.4051153060689046
+    },
+    {
+      "class_name": "Scratches",
+      "gt": 45,
+      "tp": 35,
+      "fp": 4,
+      "fn": 10,
+      "precision": 0.8974358974358975,
+      "recall": 0.7777777777777778,
+      "ap50": 0.7710092522099075,
+      "ap75": 0.452149852529817,
+      "ap50_95": 0.4410056728384909
+    },
+    {
+      "class_name": "patches",
+      "gt": 84,
+      "tp": 52,
+      "fp": 11,
+      "fn": 32,
+      "precision": 0.8253968253968254,
+      "recall": 0.6190476190476191,
+      "ap50": 0.5913986047541684,
+      "ap75": 0.5710045923931304,
+      "ap50_95": 0.45950190777084715
+    }
+  ],
+  "per_image_csv": "/home/orangepi/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/0422_Paper_remote/PROCESSED_SADH_s42/per_image_metrics.csv",
+  "predictions_json": "/home/orangepi/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/0422_Paper_remote/PROCESSED_SADH_s42/predictions.json",
+  "ap_eval": {
+    "iou_thresholds": [
+      0.5,
+      0.550000011920929,
+      0.6000000238418579,
+      0.6500000357627869,
+      0.7000000476837158,
+      0.7500000596046448,
+      0.8000000715255737,
+      0.8500000834465027,
+      0.9000000953674316,
+      0.9500001072883606
+    ]
+  }
+}

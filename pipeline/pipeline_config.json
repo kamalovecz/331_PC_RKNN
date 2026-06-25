@@ -1,0 +1,41 @@
+{
+  "_description": "PC-side PT->ONNX->RKNN Conversion Pipeline Config",
+  "wsl": {
+    "conda_env": "rknntools",
+    "python": "/home/kama/miniconda3/envs/rknntools/bin/python"
+  },
+  "paths": {
+    "models_pt_dir": "./models/pt",
+    "models_onnx_dir": "./models/onnx",
+    "models_rknn_dir": "./models/rknn",
+    "data_dir": "./data/images",
+    "calib_list": "./data/calibration.txt",
+    "outputs_dir": "./outputs"
+  },
+  "export": {
+    "imgsz": 640,
+    "opset": 12,
+    "half": false,
+    "simplify": true,
+    "format": "onnx"
+  },
+  "rknn": {
+    "target": "rk3588",
+    "quantize": false,
+    "mean": [0, 0, 0],
+    "std": [255, 255, 255],
+    "input_name": "images"
+  },
+  "inference": {
+    "input_size": "640x640",
+    "default_conf": 0.35,
+    "default_iou": 0.50,
+    "classes": ["Rust", "Cracks", "patches", "Scratches", "Pitting"]
+  },
+  "board": {
+    "ip": "192.168.137.250",
+    "user": "orangepi",
+    "remote_models_dir": "~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models",
+    "remote_pipeline": "~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/run_pipeline.sh"
+  }
+}
