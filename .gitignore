@@ -1,51 +1,26 @@
 # Python
 __pycache__/
 *.py[cod]
-*.so
 
-# Virtual env
-.tmp_onnx_env/
-venv/
-.venv/
+# Model files (too large)
+*.pt
+*.onnx
+*.rknn
 
-# IDE
-.vscode/
-.idea/
+# Outputs (generated)
+outputs/
+
+# Large data files
+*.csv
+predictions.json
+per_image_metrics.csv
+
+# Images
+*.jpg
+*.png
+*.pdf
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Large models (optional - uncomment if needed)
-# pipeline/models/pt/*.pt
-# pipeline/models/onnx/*.onnx
-# pipeline/models/rknn/*.rknn
-
-# Outputs (generated)
-pipeline/outputs/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Git
-*.orig
-
-# Model files (too large, store separately)
-pipeline/models/pt/*.pt
-pipeline/models/onnx/*.onnx
-pipeline/models/rknn/*.rknn
-
-# Visualization images (too many)
-*/vis/
-
-# CSV metrics files (large)
-*/per_image_metrics.csv
-
-# Large figure files (store separately)
-figures/*.pdf
-figures/*.png
-figures/*/*.pdf
-figures/*/*.png
-
-# Test images (350 jpgs, too many)
-pipeline/data/images/
+.vscode/

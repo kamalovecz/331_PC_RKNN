@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="980" viewBox="0 0 1320 980">
+<rect x="0.0" y="0.0" width="1320.0" height="980.0" rx="0.0" ry="0.0" fill="#ffffff" stroke="none" stroke-width="0.0" />
+<text x="50.0" y="42.0" font-size="28.0" text-anchor="start" font-weight="bold" fill="#222" font-family="DejaVu Serif">Pareto View: Accuracy vs End-to-End Latency</text>
+<text x="50.0" y="72.0" font-size="18.0" text-anchor="start" font-weight="normal" fill="#555" font-family="DejaVu Serif">Port-Defect Test Set (n=350)</text>
+<rect x="120.0" y="110.0" width="940.0" height="750.0" rx="0.0" ry="0.0" fill="#ffffff" stroke="#dddddd" stroke-width="1.0" />
+<line x1="120.0" y1="110.0" x2="120.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="120.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">53.0</text>
+<line x1="308.0" y1="110.0" x2="308.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="308.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">57.6</text>
+<line x1="496.0" y1="110.0" x2="496.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="496.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">62.3</text>
+<line x1="684.0" y1="110.0" x2="684.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="684.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">66.9</text>
+<line x1="872.0" y1="110.0" x2="872.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="872.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">71.5</text>
+<line x1="1060.0" y1="110.0" x2="1060.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="1060.0" y="885.0" font-size="12.0" text-anchor="middle" font-weight="normal" fill="#666" font-family="DejaVu Serif">76.1</text>
+<line x1="120.0" y1="110.0" x2="1060.0" y2="110.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="114.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">65.1</text>
+<line x1="120.0" y1="260.0" x2="1060.0" y2="260.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="264.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">52.1</text>
+<line x1="120.0" y1="410.0" x2="1060.0" y2="410.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="414.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">39.0</text>
+<line x1="120.0" y1="560.0" x2="1060.0" y2="560.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="564.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">26.0</text>
+<line x1="120.0" y1="710.0" x2="1060.0" y2="710.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="714.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">13.0</text>
+<line x1="120.0" y1="860.0" x2="1060.0" y2="860.0" stroke="#ececec" stroke-width="1.0" />
+<text x="108.0" y="864.0" font-size="12.0" text-anchor="end" font-weight="normal" fill="#666" font-family="DejaVu Serif">0.0</text>
+<text x="590.0" y="932.0" font-size="18.0" text-anchor="middle" font-weight="normal" fill="#222" font-family="DejaVu Serif">End-to-end latency per image (ms)</text>
+<g transform="translate(36,485.0) rotate(-90)"><text x="0.0" y="0.0" font-size="18.0" text-anchor="middle" font-weight="normal" fill="#222" font-family="DejaVu Serif">PT-side mAP50-95 on same test set (%)</text></g>
+<line x1="120.0" y1="860.0" x2="1065.0" y2="860.0" stroke="#222" stroke-width="1.6" />
+<line x1="120.0" y1="860.0" x2="120.0" y2="105.0" stroke="#222" stroke-width="1.6" />
+<circle cx="211.0" cy="278.1" r="8.0" fill="#1f77b4" stroke="#111111" stroke-width="2.2" opacity="0.860" />
+<text x="226.0" y="274.1" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">SADH</text>
+<circle cx="378.7" cy="288.8" r="11.6" fill="#ff7f0e" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="397.3" y="283.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">Full-Model</text>
+<circle cx="408.2" cy="266.1" r="12.8" fill="#2ca02c" stroke="#111111" stroke-width="2.2" opacity="0.860" />
+<text x="428.0" y="259.7" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">RepHFE</text>
+<circle cx="412.9" cy="224.4" r="26.0" fill="#d62728" stroke="#111111" stroke-width="2.2" opacity="0.860" />
+<text x="445.9" y="211.4" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">YOLOv8n</text>
+<circle cx="413.3" cy="266.2" r="11.6" fill="#9467bd" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="431.9" y="260.4" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">RuleLoss-Full</text>
+<circle cx="421.7" cy="276.5" r="17.0" fill="#8c564b" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="445.7" y="268.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">A-GFPN</text>
+<circle cx="483.4" cy="263.2" r="17.1" fill="#e377c2" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="507.5" y="254.7" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">A-GFPN+RepHFE</text>
+<circle cx="505.2" cy="259.1" r="11.6" fill="#7f7f7f" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="523.7" y="253.3" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">NEU-Transfer</text>
+<circle cx="969.0" cy="860.0" r="14.0" fill="#bcbd22" stroke="#ffffff" stroke-width="1.2" opacity="0.860" />
+<text x="990.1" y="853.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#222" font-family="DejaVu Serif">B3-Lite</text>
+<path d="M 211.0 278.1 L 408.2 266.1 L 412.9 224.4" fill="none" stroke="#444" stroke-width="2.0" stroke-dasharray="8 5" />
+<text x="1078.0" y="90.0" font-size="15.0" text-anchor="start" font-weight="bold" fill="#222" font-family="DejaVu Serif">Params</text>
+<circle cx="1108.0" cy="140.0" r="8.0" fill="#B3BCD0" stroke="#666" stroke-width="1.0" opacity="0.700" />
+<text x="1148.0" y="145.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#333" font-family="DejaVu Serif">1.59 M</text>
+<circle cx="1108.0" cy="232.0" r="17.0" fill="#B3BCD0" stroke="#666" stroke-width="1.0" opacity="0.700" />
+<text x="1148.0" y="237.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#333" font-family="DejaVu Serif">2.30 M</text>
+<circle cx="1108.0" cy="324.0" r="26.0" fill="#B3BCD0" stroke="#666" stroke-width="1.0" opacity="0.700" />
+<text x="1148.0" y="329.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#333" font-family="DejaVu Serif">3.01 M</text>
+<text x="1078.0" y="420.0" font-size="15.0" text-anchor="start" font-weight="bold" fill="#222" font-family="DejaVu Serif">Frontier</text>
+<line x1="1078.0" y1="446.0" x2="1130.0" y2="446.0" stroke="#444" stroke-width="2.0" stroke-dasharray="8 5" />
+<text x="1142.0" y="450.0" font-size="13.0" text-anchor="start" font-weight="normal" fill="#333" font-family="DejaVu Serif">non-dominated</text>
+</svg>

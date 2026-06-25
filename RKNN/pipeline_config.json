@@ -1,0 +1,37 @@
+{
+  "_description": "RKNN-PT Alignment Pipeline Configuration",
+  "project_root": "auto",
+  "paths": {
+    "models_dir": "./models",
+    "data_images_dir": "./data/images",
+    "data_labels_dir": "./data/labels",
+    "outputs_dir": "./outputs",
+    "align_dump_dir": "./outputs/align_dump",
+    "layerwise_diag_dir": "./outputs/layerwise_diag",
+    "eval_dir": "./outputs/eval"
+  },
+  "inference": {
+    "input_size": "640x640",
+    "default_conf": 0.35,
+    "default_iou": 0.50,
+    "max_det": 300,
+    "core": "0",
+    "input_format": "rgb",
+    "input_layout": "auto",
+    "norm_mode": "auto",
+    "pad_color": 114,
+    "decode_mode": "dfl_concat",
+    "min_wh": 10.0,
+    "min_area": 120.0,
+    "max_aspect_ratio": 8.0,
+    "merge_gap": 12,
+    "edge_margin": 4,
+    "min_edge_box": 20,
+    "topk": 5
+  },
+  "model": {
+    "classes": ["Rust", "Cracks", "patches", "Scratches", "Pitting"],
+    "reg_max": 15
+  },
+  "python": "/home/orangepi/miniforge3/bin/python3"
+}
