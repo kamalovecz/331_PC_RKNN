@@ -24,3 +24,6 @@ per_image_metrics.csv
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Allow RKNN wheel packages
+!tools/rknn_packages/*.whl
