@@ -104,9 +104,8 @@ bash Miniconda3-latest-Linux-x86_64.sh
 conda create -n rknntools python=3.8 -y
 conda activate rknntools
 
-# 安装 RKNN Toolkit2
-# 从 https://github.com/airockchip/rknn-toolkit2 下载对应 .whl 文件
-pip install rknn_toolkit2-2.3.2-cp38-cp38-linux_x86_64.whl
+# 安装 RKNN Toolkit2 (仓库自带 wheel)
+pip install tools/rknn_packages/rknn_toolkit2-2.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 
 # 安装其他依赖
 pip install ultralytics onnxruntime opencv-python numpy pycocotools
@@ -151,9 +150,8 @@ wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge
 bash Miniforge3-Linux-aarch64.sh
 # 全部 yes 即可
 
-# 安装 rknn-toolkit-lite2
-# 从 Rockchip 官方获取 .whl 文件并安装
-pip install rknn_toolkit_lite2-2.3.2-cp312-cp312-linux_aarch64.whl
+# 安装 rknn-toolkit-lite2 (仓库自带 wheel)
+pip install tools/rknn_packages/rknn_toolkit_lite2-2.3.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
 
 # 安装依赖
 pip install opencv-python numpy pycocotools
