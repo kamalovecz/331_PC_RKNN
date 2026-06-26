@@ -32,7 +32,7 @@ Board-side RKNN model vs PC-side PyTorch model layer-wise alignment & inference 
 
 ### 1. Drop your PC-converted RKNN model
 
-    scp your_model.rknn orangepi@192.168.137.250:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/
+    scp your_model.rknn orangepi@<你的板端IP>:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/
 
 ### 2. Run the full pipeline
 
@@ -146,7 +146,7 @@ Edit this one file to change paths globally — no need to touch individual scri
 ## Board Info
 
 - Device: Orange Pi 5 (RK3588)
-- IP: 192.168.137.250
+- IP: <你的板端IP>
 - OS: Linux 5.10.160-rockchip-rk3588
 - Python: miniforge3 Python 3.12
 - NPU: RK3588 (3 cores)

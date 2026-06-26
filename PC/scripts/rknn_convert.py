@@ -166,7 +166,7 @@ def main():
 
     # --- Print scp command for convenience ---
     print(f"\n[Next] Copy to board:")
-    print(f"  scp {rknn_path} orangepi@192.168.137.250:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/")
+    print(f"  scp {rknn_path} orangepi@<你的板端IP>:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/")
 
 
 if __name__ == "__main__":

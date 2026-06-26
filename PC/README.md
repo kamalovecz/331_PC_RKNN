@@ -117,7 +117,7 @@ Edit pipeline_config.json to change:
 
 ## Board Connection
 
-    IP: 192.168.137.250
+    IP: <你的板端IP>
     User: orangepi
     Remote pipeline: ~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/
 

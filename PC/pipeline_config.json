@@ -33,7 +33,7 @@
     "classes": ["Rust", "Cracks", "patches", "Scratches", "Pitting"]
   },
   "board": {
-    "ip": "192.168.137.250",
+    "ip": "<你的板端IP>",
     "user": "orangepi",
     "remote_models_dir": "~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models",
     "remote_pipeline": "~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/run_pipeline.sh"

@@ -62,7 +62,7 @@ cd PC && bash run_convert.sh full models/pt/your_model.pt
 # 模型自动 scp 到板端
 
 # ===== 3. 板端: 推理评估 (Orange Pi 5) =====
-ssh orangepi@192.168.137.250
+ssh orangepi@<你的板端IP>
 cd ~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite
 ./run_pipeline.sh models/your_model.rknn full
 # 输出在 outputs/ 目录
@@ -138,7 +138,7 @@ python -c "import onnxruntime; print('onnxruntime OK')"
 ip addr show
 
 # 从 PC SSH 连接
-ssh orangepi@192.168.137.250
+ssh orangepi@<你的板端IP>
 # 默认密码通常是 orangepi
 ```
 
@@ -169,7 +169,7 @@ cp -r /tmp/repo/RKNN/* ~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/
 
 # 方式 B: 从 PC scp
 # 在 PC 端执行:
-# scp -r RKNN/* orangepi@192.168.137.250:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/
+# scp -r RKNN/* orangepi@<你的板端IP>:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/
 ```
 
 #### 2.5 准备测试数据
@@ -222,7 +222,7 @@ python scripts/rknn_convert.py --onnx models/onnx/your_model.onnx
 
 # 第 3 步: 传输到板端
 scp models/rknn/your_model.rknn \
-  orangepi@192.168.137.250:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/
+  orangepi@<你的板端IP>:~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/models/
 ```
 
 #### 3.4 一键执行
@@ -250,7 +250,7 @@ bash run_convert.sh full models/pt/your_model.pt
 #### 4.1 单张图片推理 (冒烟测试)
 
 ```bash
-ssh orangepi@192.168.137.250
+ssh orangepi@<你的板端IP>
 cd ~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite
 
 /home/orangepi/miniforge3/bin/python3 scripts/infer.py \
@@ -487,7 +487,7 @@ rm -rf ~/.local/share/Trash/*
 
 | 项目 | 值 |
 |---|---|
-| IP | 192.168.137.250 |
+| IP | <你的板端IP> |
 | 用户 | orangepi |
 | 项目路径 | `~/Paper_pass_Projects/yolov8_rknn-toolkit2-lite/` |
 | Python 路径 | `/home/orangepi/miniforge3/bin/python3` |
